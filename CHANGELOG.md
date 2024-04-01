@@ -3,5 +3,8 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
+## 2024-04-01
 
+### Changed
 
+- Updated to Hayabusa 2.14.0 and fixed broken workflow
