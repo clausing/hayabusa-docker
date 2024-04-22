@@ -1,7 +1,7 @@
 FROM debian:stable-slim
 
 LABEL maintainer "Jim Clausing, jclausing@isc.sans.edu"
-LABEL version="hayabusa 2.14.0"
+LABEL version="hayabusa 2.15.0"
 LABEL description="Run hayabusa in a docker container"
 
 WORKDIR /app
@@ -9,7 +9,7 @@ WORKDIR /app
 RUN apt update && \
     apt install wget unzip -y && \
     apt clean && \
-    wget https://github.com/Yamato-Security/hayabusa/releases/download/v2.14.0/hayabusa-2.14.0-linux-intel.zip && \
+    wget https://github.com/Yamato-Security/hayabusa/releases/download/v2.15.0/hayabusa-2.15.0-linux-intel.zip && \
     unzip hayabusa*.zip && \
     ln -s hayabusa*-musl hayabusa && \
     chmod a+x /app/hayabusa && \
