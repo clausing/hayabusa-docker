@@ -3,6 +3,12 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
+## 2025-08-01
+
+### Changed
+
+- Update to Hayabus 3.4.0
+
 ## 2025-05-21
 
 ### Changed
