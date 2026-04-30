@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/uac
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/hayabusa
 
       - name: Build and push
         uses: docker/build-push-action@v6
