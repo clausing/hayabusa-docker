@@ -3,6 +3,12 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
+## 2026-10-29
+
+### Changed
+
+- Update to Hayabusa 4.3.1
+
 ## 2026-10-28
 
 ### Changed
